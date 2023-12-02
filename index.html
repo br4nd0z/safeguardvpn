@@ -1,0 +1,1034 @@
+<html lang="pt-br">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8"><!---->
+	<meta name="description"
+		content="The VPN service that keeps your phone, tablet &amp; desktop secure &amp; private.">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tinyslider.css">
+	<script src="js/antif12.js"></script>
+	<script type="text/javascript" async=""
+		src="https://www.googletagmanager.com/gtag/js?id=G-B9LLLEF1SN&amp;cx=c&amp;_slc=1"></script>
+	<script async="" src="../www.google-analytics.com/analytics.js"></script>
+	<script async="" src="js/analytics.js"></script>
+	<script src="js/otSDKStub.js" type="text/javascript" charset="UTF-8"
+		data-domain-script="dce7a082-4bd7-4f4f-9c5c-7540892e6087"></script>
+	<script type="text/javascript">
+		function OptanonWrapper() { }
+	</script>
+
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-56907699-2', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	<script src="js/animatedScroll.js"></script>
+	<link rel="icon" type="image/png" href="fonts/logo.svg">
+	<title>SafeGuard VPN</title>
+	<style></style>
+	<style></style>
+</head>
+
+<body>
+	<header id="header" class="header">
+		<div class="header__inner">
+			<div class="header__logo js--data-nav" data-nav-to="main">
+				<img class="header__logo-icon" src="fonts/logo.svg" alt="logo">
+				<div class="header__logo-name">
+					SafeGuard VPN
+				</div>
+			</div>
+			<ul class="header__nav">
+				<li class="header__nav-item js--data-nav" data-nav-to="about">About</li>
+				<li class="header__nav-item js--data-nav" data-nav-to="platforms">Platforms</li>
+				<li class="header__nav-item js--data-nav" data-nav-to="servers">Servers</li>
+				<!-- <li class="header__nav-item js--data-nav" data-nav-to="price">Price</li> -->
+				<li class="header__nav-item js--data-nav" data-nav-to="feedback">Feedback</li>
+				<!-- <li class="header__nav-lang">
+              <a href="#">RU</a>
+              <a href="#" class="active">ENG</a>
+            </li> -->
+			</ul>
+			<a href="download/SafeGuard-VPN.rar" download="SafeGuard-VPN.rar" type="application/vnd.rar" class="header__get-btn">Get SafeGuard VPN</a>
+			<div class="header__mobile-btn js--toggle-nav">
+				<img class="header__mobile-btn-icon header__mobile-btn-icon_open" src="fonts/hamburger.svg" alt="open">
+				<img class="header__mobile-btn-icon header__mobile-btn-icon_close" src="fonts/close.svg" alt="close">
+			</div>
+		</div>
+	</header>
+	<section id="main" class="main-section main-section_connected">
+		<div class="main-section__circle-wrapper">
+			<div class="main-section__circle-wrapper-inner">
+				<div class="main-section__circle"></div>
+			</div>
+		</div>
+		<div class="main-section__inner">
+			<div class="main-section__left">
+				<div class="main-section__status-wrapper">
+					<div class="main-section__status-wrapper-progress">
+						<svg width="5" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect width="100%" height="100%" fill="none" stroke="#007AFF" stroke-width="1"
+								stroke-dasharray="5" stroke-dashoffset="0" stroke-linecap="square"></rect>
+						</svg>
+					</div>
+					<div id="status-real"
+						class="main-section__status-wrapper-row main-section__status-wrapper-row_disabled">
+						<div class="main-section__status-wrapper-checkbox"></div>
+						<div class="main-section__status-wrapper-value">
+							<div class="main-section__status">
+								<span class="main-section__status-title">Your real status:</span>
+								<span id="status" class="main-section__status-name">Unprotected</span>
+							</div>
+							<div class="main-section__info">
+								<div class="main-section__info-field">
+									<span>IP:</span>
+									<span id="ip-real"
+										class="main-section__info-field-name">2804:14d:5cd4:412a:756b:4b00:85db:4481</span>
+								</div>
+								<div class="main-section__info-field main-section__info-field_isp">
+									<span>ISP:</span>
+									<span id="isp-real" class="main-section__info-field-name">Claro NXT Telecomunicacoes
+										Ltda</span>
+								</div>
+								<div class="main-section__info-field">
+									<span>Location:</span>
+									<span id="location-real"
+										class="main-section__info-field-name main-section__info-field-name_location">Brazil</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="status-touch" class="main-section__status-wrapper-row">
+						<div class="main-section__status-wrapper-checkbox"></div>
+						<div class="main-section__status-wrapper-value">
+							<div class="main-section__status">
+								<span class="main-section__status-title">YourSafeGuard VPN status:</span>
+								<span id="status-touch-name"
+									class="main-section__status-name main-section__status-name_changed">Protected</span>
+							</div>
+							<div id="status-touch-info" class="main-section__info">
+								<div class="main-section__info-field">
+									<span>IP:</span>
+									<span id="ip" class="main-section__info-field-name">185.212.169.106</span>
+								</div>
+								<div class="main-section__info-field main-section__info-field_isp">
+									<span>ISP:</span>
+									<span id="isp" class="main-section__info-field-name">M247 Ltd</span>
+								</div>
+								<div class="main-section__info-field">
+									<span>Location:</span>
+									<span id="location"
+										class="main-section__info-field-name main-section__info-field-name_location">United
+										Kingdom</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-section__content-wrapper">
+					<div class="main-section__title">
+						SafeGuard VPN
+					</div>
+					<div class="main-section__desc">
+						The VPN service that keeps your phone, tablet &amp; desktop secure &amp; private
+					</div>
+					<div>
+						<a href="download/SafeGuard-VPN.rar" download="SafeGuard-VPN.rar" type="application/vnd.rar" class="button button_large">
+							Get SafeGuard VPN
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="main-section__right">
+				<div class="main-section__scale-circle-wrapper">
+					<div class="main-section__scale-circle"></div>
+				</div>
+				<div class="app-screen">
+					<div class="app-screen__inner">
+						<div class="app-screen__header">
+							<img src="fonts/burger-menu.svg" alt="menu">
+							<span>SafeGuard VPN</span>
+							<img src="fonts/share.svg" alt="share">
+						</div>
+						<div class="app-screen__location">
+							You are in <span class="app-screen__location-name">Russia</span>
+						</div>
+						<div id="switch-title" class="app-screen__switch-title">You are connected from</div>
+						<div id="chosen-location" class="app-screen__choosen-location">United Kingdom</div>
+						<div class="app-screen__map-wrapper">
+							<div class="app-screen__inner-circle">
+								<div class="app-screen__inner-circle_left"><span></span></div>
+								<div class="app-screen__inner-circle_right"><span></span></div>
+							</div>
+							<div class="app-screen__outher-circle">
+								<div class="app-screen__outher-circle_left"><span></span></div>
+								<div class="app-screen__outher-circle_right"><span></span></div>
+							</div>
+							<div id="connect-btn" class="app-screen__connect-btn">Connected</div>
+						</div>
+						<div class="app-screen__data">
+							<div class="app-screen__data-item">
+								<div class="app-screen__data-title">
+									4.6 <span class="app-screen__data-metric">KB</span>
+								</div>
+								<div class="app-screen__data-desc">Incoming</div>
+							</div>
+							<div class="app-screen__data-separator"></div>
+							<div class="app-screen__data-item">
+								<div class="app-screen__data-title">
+									9.3 <span class="app-screen__data-metric">KB</span>
+								</div>
+								<div class="app-screen__data-desc">Outcoming</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="why-section">
+		<div class="why-section__circle">
+			<div class="why-section__circle-inner"></div>
+		</div>
+		<div class="why-section__inner">
+			<h2 class="why-section__title">Why SafeGuard VPN?</h2>
+			<div class="tns-outer" id="about-slider-mobile-ow">
+				<div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span
+						class="current">2</span> of 3</div>
+				<div id="about-slider-mobile-mw" class="tns-ovh">
+					<div class="tns-inner" id="about-slider-mobile-iw">
+						<div id="about-slider-mobile" class="why-section__info-list js--about-slider-mobile">
+							<div class="why-section__info-item-wrapper tns-item" aria-hidden="true" tabindex="-1"
+								style="display: none;">
+								<div class="why-section__info-item">
+									<div class="why-section__info-item-img-title">
+										<img src="fonts/surf.svg" alt="access" class="why-section__info-item-icon">
+										<h4 class="why-section__info-item-title">Surf the Web Anonymously</h4>
+									</div>
+									<div class="why-section__info-item-desc">
+										Avoid being snooped by your ISP and prevent websites from ad tracking and
+										targeting.SafeGuardVPN
+										changes your
+										IP
+										address, so your online identity is anonymous and your internet activity is
+										inaccessible to prying
+										eyes
+										and
+										businessnes.
+									</div>
+								</div>
+							</div>
+							<div class="why-section__info-item-wrapper tns-item tns-slide-active"
+								id="about-slider-mobile-item0">
+								<div class="why-section__info-item">
+									<div class="why-section__info-item-img-title">
+										<img src="fonts/access.svg" alt="access" class="why-section__info-item-icon">
+										<h4 class="why-section__info-item-title">Access any Website in any Country</h4>
+									</div>
+									<div class="why-section__info-item-desc">
+										Bypass geo-restrictions to unblock any website wherever you are! Get access to
+										sites that are
+										blocked or
+										censored by government, school or workplace. Evade firewalls to unblock
+										facebook, watch youtube, and
+										circumvent VOIP limitations.SafeGuardVPN unblocks it all with its free VPN app
+									</div>
+								</div>
+							</div>
+							<div class="why-section__info-item-wrapper tns-item" id="about-slider-mobile-item1"
+								aria-hidden="true" tabindex="-1">
+								<div class="why-section__info-item">
+									<div class="why-section__info-item-img-title">
+										<img src="fonts/protect.svg" alt="access" class="why-section__info-item-icon">
+										<h4 class="why-section__info-item-title">Protect Your Data from Hackers</h4>
+									</div>
+									<div class="why-section__info-item-desc">
+										you’re connected to a public wifi Hotspot, a hacker can access your name,
+										passwords, and personal
+										information.
+										SafeGuardVPN encrypts your data and provides you with banking-level security for the
+										best protection
+										while
+										you’re
+										connected to an unsecured wifi hotspot.
+									</div>
+								</div>
+							</div>
+							<div class="why-section__info-item-wrapper tns-item" id="about-slider-mobile-item2"
+								aria-hidden="true" tabindex="-1">
+								<div class="why-section__info-item">
+									<div class="why-section__info-item-img-title">
+										<img src="fonts/surf.svg" alt="access" class="why-section__info-item-icon">
+										<h4 class="why-section__info-item-title">Surf the Web Anonymously</h4>
+									</div>
+									<div class="why-section__info-item-desc">
+										Avoid being snooped by your ISP and prevent websites from ad tracking and
+										targeting.SafeGuardVPN
+										changes your
+										IP
+										address, so your online identity is anonymous and your internet activity is
+										inaccessible to prying
+										eyes
+										and
+										businessnes.
+									</div>
+								</div>
+							</div>
+							<div class="why-section__info-item-wrapper tns-item" aria-hidden="true" tabindex="-1"
+								style="display: none;">
+								<div class="why-section__info-item">
+									<div class="why-section__info-item-img-title">
+										<img src="fonts/access.svg" alt="access" class="why-section__info-item-icon">
+										<h4 class="why-section__info-item-title">Access any Website in any Country</h4>
+									</div>
+									<div class="why-section__info-item-desc">
+										Bypass geo-restrictions to unblock any website wherever you are! Get access to
+										sites that are
+										blocked or
+										censored by government, school or workplace. Evade firewalls to unblock
+										facebook, watch youtube, and
+										circumvent VOIP limitations.SafeGuardVPN unblocks it all with its free VPN app
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tns-nav" aria-label="Carousel Pagination" style="display: none;"><button data-nav="0"
+						aria-controls="about-slider-mobile" style="display:none"
+						aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button
+						data-nav="1" tabindex="-1" aria-controls="about-slider-mobile" style="display:none"
+						aria-label="Carousel Page 2"></button><button data-nav="2" tabindex="-1"
+						aria-controls="about-slider-mobile" style="display:none" aria-label="Carousel Page 3"></button>
+				</div>
+			</div>
+			<div class="why-section__btn-container">
+				<a href="download/SafeGuard-VPN.rar" download="SafeGuard-VPN.rar" type="application/vnd.rar" class="button button_large">
+					Download
+				</a>
+			</div>
+		</div>
+	</section>
+	<section id="platforms" class="native-apps-section">
+		<div class="native-apps-section__inner">
+			<div class="native-apps-section__left">
+				<div class="native-apps-section__image-wrapper">
+					<img src="images/OS-TouchVPN-off.png" alt="native apps" class="native-apps-section__image">
+				</div>
+			</div>
+			<div class="native-apps-section__right">
+				<div class="native-apps-section__circle"></div>
+				<h2 class="native-apps-section__title">Friendly Native Apps for Every Platform</h2>
+				<div class="native-apps-section__desc">
+					WithSafeGuardVPN you are SafeGuard and limitless online within SafeGuard 3 steps, within 3 minutes. No technical
+					knowledge
+					is required. VPN is available for all devices. Sign up, install, and press connect.
+				</div>
+				<h4 class="native-apps-section__links-title">Available on:</h4>
+				<div class="native-apps-section__links-list">
+					<a href="https://visualstudio.microsoft.com/pt-br/downloads/"
+						class="native-apps-section__link js--download-app-link" target="_blank">
+						<img src="fonts/windows-msi.svg" alt="Windows MSI">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="servers" class="servers-section">
+		<div class="servers-section__inner">
+			<div class="servers-section__left">
+				<h2 class="servers-section__title">
+					Servers in 80+ Countries Worldwide
+				</h2>
+				<div class="servers-section__desc">
+					With over 5900 servers in 90+ countries, we give you blazing fast speeds and unlimited bandwidth. No
+					more
+					buffering, throttling from your Internet Service Provider or proxy errors with our VPN connection!
+				</div>
+				<div>
+					<a href="download/SafeGuardGuard-VPN.rar" download="SafeGuardGuard-VPN.rar" type="application/vnd.rar"
+						class="button button_large">
+						Get SKY VPN
+					</a>
+				</div>
+			</div>
+			<div class="servers-section__right">
+				<div class="servers-section__map-wrapper">
+					<img src="fonts/servers-map.svg" alt="Servers">
+					<div class="servers-section__map-point" style="width: 10px; height: 10px; top: 177px; left: 36px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 16px; height: 16px; top: 196px; left: 106px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 16px; height: 16px; top: 260px; left: 176px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 11px; height: 11px; top: 326px; left: 153px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 9px; height: 9px; top: 416px; left: 263px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 11px; height: 11px; top: 477px; left: 232px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 14px; height: 14px; top: 167px; left: 738px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 8px; height: 8px; top: 289px; left: 715px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 10px; height: 10px; top: 448px; left: 708px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 16px; height: 16px; top: 385px; left: 650px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 4px; height: 4px; top: 333px; left: 654px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 2px; height: 2px; top: 379px; left: 635px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 20px; height: 20px; top: 181px; left: 570px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 9px; height: 9px; top: 332px; left: 568px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 7px; height: 7px; top: 177px; left: 482px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 7px; height: 7px; top: 182px; left: 422px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 4px; height: 4px; top: 216px; left: 419px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 4px; height: 4px; top: 219px; left: 381px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 4px; height: 4px; top: 238px; left: 371px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 4px; height: 4px; top: 241px; left: 408px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 4px; height: 4px; top: 260px; left: 402px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 7px; height: 7px; top: 282px; left: 380px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 5px; height: 5px; top: 278px; left: 421px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 2px; height: 2px; top: 252px; left: 425px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 2px; height: 2px; top: 269px; left: 435px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 5px; height: 5px; top: 250px; left: 463px;">
+					</div>
+					<div class="servers-section__map-point" style="width: 5px; height: 5px; top: 283px; left: 468px;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- <section id="price" class="price-section">
+        <div class="price-section__inner">
+          <h2 class="price-section__title">Choose a Suitable Price for You</h2>
+          <div class="price-section__list">
+            <div class="price-section__item">
+              <h4 class="price-section__item-plan-name">1 month-plan</h4>
+              <h3 class="price-section__item-plan-mon">
+                10<span class="price-section__item-plan-mon-char">$</span>/mon
+              </h3>
+              <h5 class="price-section__item-plan-year">120$/Year</h5>
+              <div class="price-section__item-list">
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Anonymity</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Encryption</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Advertisement free</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">30+ virtual locations</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">5 linked devices</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">4× connection speed</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">HD streaming</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">24 hrs tech support</span>
+                </div>
+              </div>
+            </div>
+            <div class="price-section__item price-section__item_discount">
+              <h4 class="price-section__item-plan-name">1 year-plan</h4>
+              <h3 class="price-section__item-plan-mon">
+                4.17<span class="price-section__item-plan-mon-char">$</span>/mon
+              </h3>
+              <div class="price-section__item-discount-info">
+                <div class="price-section__item-discount-border price-section__item-discount-border_left">
+                  <img src="./images/icons/discount-border.svg" alt="#">
+                </div>
+                <div class="price-section__item-discount-info-inner">Save 59%</div>
+                <div class="price-section__item-discount-border price-section__item-discount-border_right">
+                  <img src="./images/icons/discount-border.svg" alt="#">
+                </div>
+              </div>
+              <h5 class="price-section__item-plan-year">50$/Year</h5>
+              <div class="price-section__item-list">
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Anonymity</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Encryption</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Advertisement free</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">30+ virtual locations</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">5 linked devices</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">4× connection speed</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">HD streaming</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">24 hrs tech support</span>
+                </div>
+              </div>
+              <div class="price-section__btn-container">
+                <button class="price-section__btn button button_large">
+                  Pay
+                </button>
+              </div>
+            </div>
+            <div class="price-section__item">
+              <h4 class="price-section__item-plan-name">Basic</h4>
+              <h3 class="price-section__item-plan-mon">
+                $0<span class="price-section__item-plan-mon-char">$</span>/mon
+              </h3>
+              <div class="price-section__item-list">
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Anonymity</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Encryption</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">Advertisement</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">1 virtual locations</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">1 linked devices</span>
+                </div>
+                <div class="price-section__benefit">
+                  <img class="price-section__benefit-icon" src="./images/icons/checkbox.svg" alt="check">
+                  <span class="price-section__benefit-text">HD streaming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+	<section id="feedback" class="feedback-section">
+		<div class="feedback-section__inner">
+			<h2 class="feedback-section__title">
+				What other people are saying
+			</h2>
+			<div class="tns-outer" id="tns1-ow">
+				<div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span
+						class="current">10 to 12</span> of 9</div>
+				<div class="tns-inner" id="tns1-iw">
+					<div class="feedback-section__list js--slider tns-slider tns-gallery tns-subpixel tns-calc tns-horizontal"
+						id="tns1">
+						<div class="tns-item tns-normal" id="tns1-item0" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-1.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Dean Granowitz
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Free VPN which works effortlessly. Works SafeGuard as well as paid services I've used in
+									the past. Ads
+									present,
+									but I've never found then overwhelming. Thanks for a great service.
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-normal" id="tns1-item1" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-2.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Syahrizal
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Its very good, it helped me install apps that i couldn't before I had this vpn. If
+									you want to install
+									apps if
+									you're not there)
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-normal" id="tns1-item2" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-3.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Capitan Rex
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Magnificent! It does what it's supposed to do.. Works extremely fine with my Samsung
+									Galaxy Note 3,
+									didn't
+									really notice the speed difference.. Easy to use, easy to connect n disconnect.. Not
+									to mention it's
+									totally
+									FREE! Good job guys! Edited: Now i'm using xiaomi pocophone f1 and it's still works
+								</div>
+							</div>
+						</div>
+
+						<div class="tns-item tns-normal" id="tns1-item3" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-4.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											William Toto
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Outstanding app and service. Constant connection and always watching out for me.
+									Highly recommended to
+									all.
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-normal" id="tns1-item4" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-5.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Saurav Rana
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									fantastic app. I SafeGuard want to open some block sites but it's didn't open, thanks
+									toSafeGuard VPN, u solve
+									my
+									all problems. now I SafeGuard open all the sites in one SafeGuard. thanksSafeGuard VPN, u are truly
+									a best.
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-normal" id="tns1-item5" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-6.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Kakha Khmelidze
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Works well and the free version is decent. There are quite a few countries and
+									server options in the
+									free
+									version.
+								</div>
+							</div>
+						</div>
+
+						<div class="tns-item tns-normal" id="tns1-item6" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-7.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Robert Sanchez
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									SafeGuard is really sweet, what i appreceate also are the extta assistance features
+									bandwidth. scan.app
+									control
+									. I love it.
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-normal" id="tns1-item7" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-8.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Robert
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Best app for free VPN . I m enjoying much .such a very very good app .
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-normal" id="tns1-item8" aria-hidden="true" tabindex="-1">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-9.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											April Fawcitt
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									So fast and super easy to use.It appears to do the job well.My friend who knows
+									computers way better
+									than
+									me
+									recommended this one to me as one SafeGuard app is the only VPN he uses and it does all
+									of it does
+									everything
+									for him as soon as he starts his phone he SafeGuard pushes the button. so I downloaded it
+									...
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-slide-active tns-fadeIn" style="left: 0%;">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-1.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Dean Granowitz
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Free VPN which works effortlessly. Works SafeGuard as well as paid services I've used in
+									the past. Ads
+									present,
+									but I've never found then overwhelming. Thanks for a great service.
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-slide-active tns-fadeIn" style="left: 33.3333%;">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-2.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Syahrizal
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Its very good, it helped me install apps that i couldn't before I had this vpn. If
+									you want to install
+									apps
+									in the Google play store you need to clear it's cache and enter Google play with
+									vpn(I reccomend USA
+									if
+									you're not there)
+								</div>
+							</div>
+						</div>
+						<div class="tns-item tns-slide-active tns-fadeIn" style="left: 66.6667%;">
+							<div class="feedback-section__item">
+								<div class="feedback-section__user">
+									<div class="feedback-section__user-photo">
+										<img src="images/rate-ava-3.png" alt="photo">
+									</div>
+									<div class="feedback-section__user-desc">
+										<h4 class="feedback-section__user-name">
+											Capitan Rex
+										</h4>
+										<div class="feedback-section__user-rate">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+											<img src="fonts/star-icon.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="feedback-section__comment">
+									Magnificent! It does what it's supposed to do.. Works extremely fine with my Samsung
+									Galaxy Note 3,
+									didn't
+									really notice the speed difference.. Easy to use, easy to connect n disconnect.. Not
+									to mention it's
+									totally
+									FREE! Good job guys! Edited: Now i'm using xiaomi pocophone f1 and it's still works
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tns-nav" aria-label="Carousel Pagination"><button data-nav="0" aria-controls="tns1"
+						aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button
+						data-nav="1" aria-controls="tns1" aria-label="Carousel Page 2" class=""
+						tabindex="-1"></button><button data-nav="2" aria-controls="tns1" aria-label="Carousel Page 3"
+						class="" tabindex="-1"></button><button data-nav="3" tabindex="-1" aria-controls="tns1"
+						style="display:none" aria-label="Carousel Page 4"></button><button data-nav="4" tabindex="-1"
+						aria-controls="tns1" style="display:none" aria-label="Carousel Page 5"></button><button
+						data-nav="5" tabindex="-1" aria-controls="tns1" style="display:none"
+						aria-label="Carousel Page 6"></button><button data-nav="6" tabindex="-1" aria-controls="tns1"
+						style="display:none" aria-label="Carousel Page 7"></button><button data-nav="7" tabindex="-1"
+						aria-controls="tns1" style="display:none" aria-label="Carousel Page 8"></button><button
+						data-nav="8" tabindex="-1" aria-controls="tns1" style="display:none"
+						aria-label="Carousel Page 9"></button>
+				</div>
+			</div>
+			<h3 class="feedback-section__sub-title">
+				People around the world are raving aboutSafeGuard VPN
+			</h3>
+			<div class="feedback-section__rate-list">
+				<div class="feedback-section__rate-item">
+					<div class="feedback-section__rate-item-name">
+						App Store
+					</div>
+					<div class="feedback-section__rate-item-score">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/half-star.svg" alt="#">
+					</div>
+					<div class="feedback-section__rate-item-value">
+						4.6
+					</div>
+				</div>
+				<div class="feedback-section__rate-item">
+					<div class="feedback-section__rate-item-name">
+						Google Play
+					</div>
+					<div class="feedback-section__rate-item-score">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/half-star.svg" alt="#">
+					</div>
+					<div class="feedback-section__rate-item-value">
+						4.5
+					</div>
+				</div>
+				<div class="feedback-section__rate-item">
+					<div class="feedback-section__rate-item-name">
+						Microsoft Store
+					</div>
+					<div class="feedback-section__rate-item-score">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/star-icon.svg" alt="#">
+						<img src="fonts/half-star.svg" alt="#">
+					</div>
+					<div class="feedback-section__rate-item-value">
+						4.6
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="feedback-section__browsing">
+			<div class="feedback-section__browsing-inner">
+				<div class="feedback-section__browsing-block">
+					<div class="feedback-section__browsing-title">
+						<span>Unrestricted Browsing in 30 seconds!</span>
+					</div>
+					<h4 class="feedback-section__browsing-desc">
+						Try SafeGuardGuard VPN, risk free, and enjoy <br>
+						the internet without limits
+					</h4>
+					<div class="feedback-section__btn-container">
+						<a href="download/SafeGuardGuard-VPN.rar" download="SafeGuardGuard-VPN.rar" type="application/vnd.rar"
+							target="_blank" class="button button_large">
+							Download
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__top">
+				<div class="footer__logo">
+					<img class="footer__logo-icon" src="fonts/logo.svg" alt="logo">
+					<div class="footer__logo-name">
+						SafeGuard VPN
+					</div>
+				</div>
+
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__privacy-links">
+					<a id="privacy"
+						href="https://www.aura.com/legal/privacy-policy?vh=extd71cfa30-77c3-11ea-b62a-67431c1b7647"
+						target="_blank" class="footer__privacy-links-item">Privacy policy</a>
+					<a id="terms" href="https://www.aura.com/legal/service-terms" class="footer__privacy-links-item"
+						target="_blank">Terms of
+						service</a>
+					<a id="contact" href="mailto:support@pango.co" class="footer__privacy-links-item">Contact Us</a>
+				</div>
+				<div class="footer__copyright">
+					Copyright © 2023 SafeGuardGuard VPN Inc. All Rights Reserved
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+	<script src="js/tiny-slider.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+</body>
+
+</html>

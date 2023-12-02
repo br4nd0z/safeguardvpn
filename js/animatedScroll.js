@@ -1,0 +1,1 @@
+function scrollTo(o,t,n,u){var a=o.scrollTop,e=t-a,r=0,c=function(){r+=20;var t=Math.easeInOutQuad(r,a,e,n);o.scrollTop=t,r<n&&setTimeout(c,20),r>=n&&u()};c()}Math.easeInOutQuad=function(o,t,n,u){return(o/=u/2)<1?n/2*o*o+t:-n/2*(--o*(o-2)-1)+t};
